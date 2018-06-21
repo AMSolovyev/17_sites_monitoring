@@ -14,16 +14,18 @@ also checks paid days.
 
 You can output data like this:
 ```
-OK: domain: devman.org has 68 paid days
-OK: domain: www.rbc.ru has 40 paid days
-OK: domain: vk.com has 367 paid days
-OK: domain: ecfor.ru has 247 paid days
-OK: domain: kremlin.ru has 405 paid days
-OK: domain: ok.ru has 162 paid days
-OK: domain: vkusvill.ru has 216 paid days
-OK: domain: hh.ru has 283 paid days
-OK: domain: www.superjob.ru has 252 paid days
-OK: domain: www.python.org has 280 paid days
+Domain: devman.org is True and it has 67 paid days
+Domain: www.rbc.ru is True and it has 40 paid days
+Domain: vk.com is True and it has 366 paid days
+Domain: ecfor.ru is True and it has 247 paid days
+Domain: kremlin.ru is True and it has 405 paid days
+Domain: ok.ru is True and it has 162 paid days
+Domain: vkusvill.ru is True and it has 215 paid days
+Domain: hh.ru is False and it has 283 paid days
+Domain: www.superjob.ru is True and it has 252 paid days
+Domain: www.python.org is True and it has 279 paid days
+Domain: favorit-motors.ru is True and it has 271 paid days
+
 ```
 
 # Project Goals
