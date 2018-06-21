@@ -55,11 +55,13 @@ def print_url_and_domain(during_date, response_ok, min_paid_period):
     if during_date <= min_paid_period:
         print(
             'Attention: domain {} is {} and it has {} days. It is bad'.format(
-            domain_name, response_ok, during_date))
+                domain_name, response_ok, during_date)
+        )
     else:
         print(
             'Domain: {} is {} and it has {} paid days'.format(
-            domain_name, response_ok, during_date))
+                domain_name, response_ok, during_date)
+        )
 
 
 if __name__ == '__main__':
