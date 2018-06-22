@@ -32,9 +32,9 @@ def is_server_respond_with_ok(url):
         response = requests.get(url)
         return response.ok
     except ConnectionError:
-        return False, 'ConnectionError'
+        return None
     except Timeout:
-        return False, 'Timeout'
+        return None
 
 
 def get_expiration_date(domain_name):
@@ -54,12 +54,14 @@ def check_domain_during_date(expiration_date):
 def print_url_and_domain(during_date, response_ok, min_paid_period):
     if during_date <= min_paid_period:
         print(
-            'Attention: domain {} is {} and it has {} days. It is bad'.format(
+            'Attention: domain {}'
+            ' responds OK: {} and it has {} days.'
+            ' It is bad'.format(
                 domain_name, response_ok, during_date)
         )
     else:
         print(
-            'Domain: {} is {} and it has {} paid days'.format(
+            'Domain: {} responds OK: {} and it has {} paid days'.format(
                 domain_name, response_ok, during_date)
         )
 

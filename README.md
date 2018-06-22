@@ -14,17 +14,18 @@ also checks paid days.
 
 You can output data like this:
 ```
-Domain: devman.org is True and it has 67 paid days
-Domain: www.rbc.ru is True and it has 40 paid days
-Domain: vk.com is True and it has 366 paid days
-Domain: ecfor.ru is True and it has 247 paid days
-Domain: kremlin.ru is True and it has 405 paid days
-Domain: ok.ru is True and it has 162 paid days
-Domain: vkusvill.ru is True and it has 215 paid days
-Domain: hh.ru is False and it has 283 paid days
-Domain: www.superjob.ru is True and it has 252 paid days
-Domain: www.python.org is True and it has 279 paid days
-Domain: favorit-motors.ru is True and it has 271 paid days
+Domain: devman.org responds OK: True and it has 66 paid days
+Domain: www.rbc.ru responds OK: True and it has 39 paid days
+Domain: vk.com responds OK: True and it has 365 paid days
+Domain: ecfor.ru responds OK: True and it has 246 paid days
+Domain: kremlin.ru responds OK: True and it has 404 paid days
+Domain: ok.ru responds OK: True and it has 161 paid days
+Domain: vkusvill.ru responds OK: True and it has 214 paid days
+Domain: hh.ru responds OK: False and it has 282 paid days
+Domain: www.superjob.ru responds OK: True and it has 251 paid days
+Domain: www.python.org responds OK: True and it has 278 paid days
+Domain: favorit-motors.ru responds OK: True and it has 270 paid days
+Domain: ckbtm.org responds OK: True and it has 356 paid days
 
 ```
 
